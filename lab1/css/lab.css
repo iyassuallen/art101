@@ -1,0 +1,17 @@
+
+
+h1 {
+  color: orange;
+  font-size: 400%;
+  text-indent: 20px;
+}
+
+p {
+  text-indent: 50px;
+  color: red;
+  font-size: 200%;
+}
+
+#content {
+  border: solid 5px;
+}
