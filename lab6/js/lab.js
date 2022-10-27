@@ -12,10 +12,10 @@
  year: 1995};
 
  //calculate age
- age = 2022 - year;
+ //age = 2022 - year;
 
 //myTransport
 document.writeln("Getting around: " + myTransport + "<br>");
 
 //myMainRide
-document.writeln("My Main Ride: <pre>", JSON.stringify(myMainRide, null, '\t'), "</pre>");
+document.writeln("My Main Ride: <pre>", JSON.stringify(myMainRide, null, '\t'), "<pre>");
