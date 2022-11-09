@@ -5,7 +5,7 @@
  **/
 
 //variables
-var outputEl = getElementById("output");
+var outputEl = document.getElementById("output");
 var new1El = document.createElement("p");
 var new2El = document.createElement("e");
 
