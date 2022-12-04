@@ -23,7 +23,6 @@ var button = document.getElementById('my-button');
 
 button.addEventListener('click', function() {
     inputValue = document.getElementById('my-input').value;
-    sortUserName(inputValue);
-    console.log("Your input:", inputValue);
-    outputEl.innerHTML = inputValue;
+    console.log("Your input:", sortUserName(inputValue));
+    outputEl.innerHTML = sortUserName(inputValue);
 });
